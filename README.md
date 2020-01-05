@@ -1,7 +1,7 @@
 # ConfigDTO
 create bukkit config with DTO
 
-## Dependency
+## Use as Dependency
 
 ### Repository 
 
