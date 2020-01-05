@@ -1,8 +1,27 @@
 # ConfigDTO
 create bukkit config with DTO
 
-## Dependency Info
-[check here](http://xuan.nctu.me:8081/#browse/browse:Maven:com%2Fericlam%2Fmc%2FConfigDTO-API)
+## Dependency
+
+### Repository 
+
+####Maven
+
+```mxml
+<repository>
+            <id>xuan</id>
+            <url>http://xuan.nctu.me:8081/repository/Maven/</url>
+</repository>
+```
+
+####Others
+
+you can following the information above. 
+
+###Dependency Info
+
+[here](http://xuan.nctu.me:8081/#browse/browse:Maven:com%2Fericlam%2Fmc%2FConfigDTO-API)
+
 
 or you can clone the project to compile it.
 
