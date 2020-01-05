@@ -2,6 +2,10 @@ package com.ericlam.mc.configdto
 
 import org.bukkit.plugin.Plugin
 
+/**
+ * Main Class
+ * @author Eric Lam
+ */
 class ConfigDTO {
     companion object Api : ConfigAPI {
         override fun getFactory(plugin: Plugin): ConfigFactory {
