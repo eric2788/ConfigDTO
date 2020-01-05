@@ -5,7 +5,7 @@ create bukkit config with DTO
 
 ### Repository 
 
-####Maven
+Maven
 
 ```mxml
 <repository>
@@ -14,11 +14,11 @@ create bukkit config with DTO
 </repository>
 ```
 
-####Others
+Others
 
 you can following the information above. 
 
-###Dependency Info
+Dependency Info
 
 [here](http://xuan.nctu.me:8081/#browse/browse:Maven:com%2Fericlam%2Fmc%2FConfigDTO-API)
 
