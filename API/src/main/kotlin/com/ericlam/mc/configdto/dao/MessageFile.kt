@@ -22,4 +22,8 @@ abstract class MessageFile : ConfigFile() {
      * @return the string colored with prefix
      */
     override operator fun get(node: String) = prefix + getPure(node)
+
+    override fun save() {
+        config.save(file)
+    }
 }

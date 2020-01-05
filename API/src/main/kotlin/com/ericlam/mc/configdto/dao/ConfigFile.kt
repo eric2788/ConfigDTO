@@ -13,23 +13,31 @@ import java.io.PrintWriter
 abstract class ConfigFile {
     private lateinit var _config: FileConfiguration
     private lateinit var _file: File
+    private lateinit var _yaml: Yaml
 
     protected val config: FileConfiguration
         get() = if (::_config.isInitialized) _config else throw IllegalStateException("Config has not initialized")
 
-    private val file: File
+    protected val file: File
         get() = if (::_file.isInitialized) _file else throw IllegalStateException("File has not initialized")
+
+    private val yaml: Yaml
+        get() = if (::_yaml.isInitialized) _yaml else throw IllegalStateException("Yaml has not initialized")
 
     /**
      * save the yaml base on your object values
      */
-    fun save() {
-        val yaml = Yaml()
+    open fun save() {
         PrintWriter(FileWriter(file)).use {
             it.print(yaml.dumpAsMap(this))
         }
         _config = YamlConfiguration.loadConfiguration(file)
     }
 
+    /**
+     * get data with using common way
+     * @param node path
+     * @return object
+     */
     open operator fun get(node: String): Any? = config.get(node)
 }
