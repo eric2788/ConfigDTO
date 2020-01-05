@@ -1,8 +1,8 @@
 # ConfigDTO
 create bukkit config with DTO
 
-## Dependency Information
-[check here](https://github.com/eric2788/ConfigDTO-docs)
+## Dependency Info
+[check here](http://xuan.nctu.me:8081/#browse/browse:Maven:com%2Fericlam%2Fmc%2FConfigDTO-API)
 
 or you can clone the project to compile it.
 
