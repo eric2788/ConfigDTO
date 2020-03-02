@@ -1,7 +1,7 @@
 # ConfigDTO
 create bukkit config with DTO
 
-## Dependency
+## Use as Dependency
 
 ### Repository 
 
@@ -30,3 +30,7 @@ or you can clone the project to compile it.
 [check out the wiki](https://github.com/eric2788/ConfigDTO/wiki)
 
 [check out the document](https://github.com/eric2788/ConfigDTO-docs)
+
+## Download as Plugin
+
+[link](http://www.mediafire.com/file/5ih5688ft8b79r9/ConfigDTO.jar/file)
