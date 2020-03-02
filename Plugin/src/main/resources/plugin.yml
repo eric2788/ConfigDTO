@@ -1,0 +1,5 @@
+name: ConfigDTO
+version: ${project.version}
+main: com.ericlam.mc.configdto.ConfigDTO
+api-version: "1.13"
+author: EricLam

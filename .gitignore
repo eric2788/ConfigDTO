@@ -1,6 +1,5 @@
 # Project exclude paths
 /API/target/
-/Plugin
 /target/
 /.idea
 /API/src/test
